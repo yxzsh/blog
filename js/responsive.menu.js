@@ -94,4 +94,4 @@ ResponsiveMenu.prototype.init = function() {
         toggleActive: 'nav-active',
         innerToggleActive: 'nav-active-inner'
     });
-})();
+})();</ul>

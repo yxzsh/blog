@@ -61,11 +61,7 @@ If you like Smint, or have suggestions on how it could be improved, send me a tw
 				// Courtesy of Ryan Clarke (@clarkieryan)
 
 
-				if(optionLocs[index][0] <= scrollTop && scrollTop <= optionLocs[index][1]){	
-					if(direction == "up"){
-						$("#"+id).addClass("active");
-						$("#"+optionLocs[index+1][2]).removeClass("active");
-					} else if(index > 0) {
+				if(optionLocs[index][0] <= scrolltop="" &&="" <="optionLocs[index][1]){" if(direction="=" "up"){="" $("#"+id).addclass("active");="" $("#"+optionlocs[index+1][2]).removeclass("active");="" }="" else="" if(index=""> 0) {
 						$("#"+id).addClass("active");
 						$("#"+optionLocs[index-1][2]).removeClass("active");
 					} else if(direction == undefined){
@@ -136,4 +132,4 @@ If you like Smint, or have suggestions on how it could be improved, send me a tw
 	}
 
 
-})();
+})();</a></=>

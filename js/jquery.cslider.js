@@ -36,10 +36,10 @@
 			
 			this.$slides.eq( this.current ).addClass( 'da-slide-current' );
 			
-			var $navigation		= $( '<nav class="da-dots"/>' );
+			var $navigation		= $( '<nav class="da-dots">' );
 			for( var i = 0; i < this.slidesCount; ++i ) {
 			
-				$navigation.append( '<span/>' );
+				$navigation.append( '<span>' );
 			
 			}
 			$navigation.appendTo( this.$el );
@@ -317,4 +317,4 @@
 		
 	};
 	
-})( jQuery );
+})( jQuery );</span></nav>
